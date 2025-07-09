@@ -291,6 +291,20 @@
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                                     allowfullscreen></iframe>
                         </div>
+                        <!-- Floating Arrow Indicator -->
+<div class="arrow-indicator" 
+     style="text-align: center; margin: 10px 0 20px; animation: float 2s ease-in-out infinite;">
+  <i class="fas fa-arrow-down" 
+     style="color: #2E8B57; font-size: 24px; text-shadow: 0 0 8px rgba(46, 139, 87, 0.6);"></i>
+</div>
+
+<style>
+  @keyframes float {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(5px); }
+    100% { transform: translateY(0); }
+  }
+</style>
                         <div class="mt-4">
                             <p style="color:white;">This comprehensive tutorial covers Git fundamentals, GitHub workflows, and practical examples to get you started with version control.</p>
                         </div>
@@ -327,7 +341,7 @@
                 <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
                     <p class="copyright">
                         &copy; 2025 <a href="https://www.geeksforgeeks.org/" target="_blank" class="contact-link">GeeksforGeeks</a> 
-                        & <a href="#" class="contact-link">SVEC</a>. All rights reserved.
+                        X <a href="#" class="contact-link">SVEC</a>. All rights reserved.
                     </p>
                 </div>
                 <div class="col-md-6 text-center text-md-end">
